@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Semaphore '19</title>
+    <meta name="viewport" content="initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta
+      name="google-site-verification"
+      content="FW8fWz_XC35MV4o64G4RdNPFG4QddL7qPNXmcDi5nZM"
+    />
+    <meta
+      name="Semaphore 2k19"
+      description="Semaphore is a two day South India Level technical fest, conveyed and
+          organised by Department of MCA, NMAMIT, Nitte. Over the years it has
+          evolved into a platform that provides plethora of opportunities to
+          tech lovers to explore their knowledge, creativity, and talents."
+    />
+    <base href="/" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-135023083-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-135023083-1");
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" type="text/css" />
+  </head>
+
+  <body>
+    <div class="black" id="loader">
+      <div class="preloader-wrapper small active">
+        <div class="spinner-layer spinner-blue">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+
+        <div class="spinner-layer spinner-red">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+
+        <div class="spinner-layer spinner-yellow">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+        <div class="spinner-layer spinner-green">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+      <p class="heading white-text">Semaphore '19</p>
+      <span class="fancy white-text" id="loadingTitle"></span>
+    </div>
+    <!-- Parallax Container -->
+    <div class="parallax-container ">
+      <div class="parallax">
+        <img src="./src/img/background.jpg" />
+      </div>
+      <div class="container">
+        <img src="./src/img/mainlogo-min.png" id="mainlogo" alt="" srcset="" />
+        <h3 class="white-text heading center-align" id="mainTitle">
+          Semaphore '19
+        </h3>
+        <span class="flow-text fancy yellow-text text-darken-3"
+          >Not all Treasure is Gold or Silver.</span
+        >
+      </div>
+    </div>
+    <!-- Cover that holds the countdown and the timer -->
+    <div class="cover-image card-panel grey darken-4 row">
+      <div class="col l6 m6 s12 center-align">
+        <span class="white-text heading"
+          >The Greatest Trove Hunt of all Time</span
+        ><br />
+        <span class="white-text fancy">For the encrypted treasure</span><br />
+        <span id="date" class="white-text flow-text fancy">March 1 and 2</span>
+      </div>
+      <div class="col l6 m6 s12 fancy">
+        <div class="container">
+          <div class="row yellow-text text-darken-3">
+            <div class="col l3 s3 m3 center-align">
+              <div id="days" class="time"></div>
+              <span class="prop">days</span>
+            </div>
+            <div class="col l3 s3 m3 center-align">
+              <div id="hours" class="time"></div>
+              <span class="prop">hours</span>
+            </div>
+            <div class="col l3 s3 m3 center-align">
+              <div id="minutes" class="time"></div>
+              <span class="prop">min</span>
+            </div>
+            <div class="col l3 s3 m3 center-align">
+              <div id="seconds" class="time"></div>
+              <span class="prop">sec</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cover-page card-panel grey darken-4 scrollspy" id="about">
+      <div class="container center-align">
+        <h5 class="heading white-text flow-text">About Semaphore '19</h5>
+        <div class="container white-text">
+          Semaphore is a two day South India Level technical fest, conveyed and
+          organised by Department of MCA, NMAMIT, Nitte. Over the years it has
+          evolved into a platform that provides plethora of opportunities to
+          tech lovers to explore their knowledge, creativity, and talents. With
+          all fun, entertaining and brainstorming events, Semaphore for the past
+          18 years has served as an ideal milestone to experience the beauty of
+          information technology. And we are here, once again, continuing the
+          legacy with the 19th edition of our fest. So set yourself, get ready
+          and join us at SEMAPHORE '19
+        </div>
+        <div class="video-con center-align">
+          <iframe
+            class="hoverable"
+            id="teaser"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/V6g-Up4Azz0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <div
+      class="cover-page center-align card-panel grey darken-4 scrollspy"
+      id="challenge"
+    >
+      <h4 class="heading white-text flow-text">The Challenges</h4>
+      <span class="fancy white-text"
+        >Do you have what it takes ? Prove us wrong.</span
+      >
+      <br /><br />
+      <a
+        class="modal-trigger heading yellow-text pulse btn black"
+        onclick="showEvent('variety')"
+        href="#modal1"
+      >
+        X-Factor Theme : India in 2050
+      </a>
+      <div class="container white-text">
+        <div class="row">
+          <div class="card-panel z-depth-0 transparent col l3 m3 s6">
+            <a href="#modal1" class="modal-trigger">
+              <img
+                src="./src/img/event-logo/adlogo.png"
+                class="responsive-img event-logo"
+                alt=""
+                onclick="showEvent('app')"
+              />
+            </a>
+            <span class="heading yellow-text text-darken-3">Trapp Door</span
+            ><br />
+            <span class="white-text">App Development</span>
+          </div>
+          <div class="card-panel z-depth-0 transparent col l3 m3 s6">
+            <a href="#modal1" class="modal-trigger">
+              <img
+                src="./src/img/event-logo/code.png"
+                class="responsive-img event-logo"
+                alt=""
+                onclick="showEvent('code')"
+              />
+            </a>
+            <span class="heading yellow-text text-darken-3">Bitmorphose</span
+            ><br />
+            <span class="white-text">Coding</span>
+          </div>
+          <div class="card-panel z-depth-0 transparent col l3 m3 s6">
+            <a href="#modal1" class="modal-trigger">
+              <img
+                src="./src/img/event-logo/dig.png"
+                class="responsive-img event-logo"
+                alt=""
+                onclick="showEvent('digiarts')"
+              />
+            </a>
+            <span class="heading yellow-text text-darken-3">Bitsplash</span
+            ><br />
+            <span class="white-text">Digital Arts</span>
+          </div>
+          <div class="card-panel z-depth-0 transparent col l3 m3 s6">
+            <a href="#modal1" class="modal-trigger">
+              <img
+                src="./src/img/event-logo/game.png"
+                class="responsive-img event-logo"
+                alt=""
+                onclick="showEvent('gaming')"
+              />
+            </a>
+            <span class="heading yellow-text text-darken-3">Aimbits</span><br />
+            <span class="white-text">Gaming</span>
+          </div>
+          <div class="card-panel z-depth-0 transparent col l3 m3 s6">
+            <a href="#modal1" class="modal-trigger">
+              <img
+                src="./src/img/event-logo/hunt.png"
+                class="responsive-img event-logo"
+                alt=""
+                onclick="showEvent('thunt')"
+              />
+            </a>
+            <span class="heading yellow-text text-darken-3">Cipher Chase</span
+            ><br />
+            <span class="white-text">Treasure Hunt</span>
+          </div>
+          <div class="card-panel z-depth-0 transparent col l3 m3 s6">
+            <a href="#modal1" class="modal-trigger">
+              <img
+                src="./src/img/event-logo/IT.png"
+                class="responsive-img event-logo"
+                alt=""
+                onclick="showEvent('itman')"
+              />
+            </a>
+            <span class="heading yellow-text text-darken-3">Techarch</span
+            ><br />
+            <span class="white-text">IT Manager</span>
+          </div>
+          <div class="card-panel z-depth-0 transparent col l3 m3 s6">
+            <a href="#modal1" class="modal-trigger">
+              <img
+                src="./src/img/event-logo/mega.png"
+                class="responsive-img event-logo"
+                alt=""
+                onclick="showEvent('mevent')"
+              />
+            </a>
+            <span class="heading yellow-text text-darken-3">Alpha Duo</span
+            ><br />
+            <span class="white-text">Mega Event</span>
+          </div>
+          <div class="card-panel z-depth-0 transparent col l3 m3 s6">
+            <a href="#modal1" class="modal-trigger">
+              <img
+                src="./src/img/event-logo/mic.png"
+                class="responsive-img event-logo"
+                alt=""
+                onclick="showEvent('variety')"
+              />
+            </a>
+            <span class="heading yellow-text text-darken-3">X Factor</span
+            ><br />
+            <span class="white-text">Variety Show</span>
+          </div>
+          <div
+            class="card-panel z-depth-0 transparent col l3 m3 s6 offset-l1 offset-m1"
+          >
+            <a href="#modal1" class="modal-trigger">
+              <img
+                src="./src/img/event-logo/quiz.png"
+                class="responsive-img event-logo"
+                alt=""
+                onclick="showEvent('itquiz')"
+              />
+            </a>
+            <span class="heading yellow-text text-darken-3">Enigma</span><br />
+            <span class="white-text">IT Quiz</span>
+          </div>
+          <div class="card-panel z-depth-0 transparent col l3 m3 s6">
+            <a href="#modal1" class="modal-trigger">
+              <img
+                src="./src/img/event-logo/rdbms.png"
+                class="responsive-img event-logo"
+                alt=""
+                onclick="showEvent('rdbms')"
+              />
+            </a>
+            <span class="heading yellow-text text-darken-3">CryptoJack</span
+            ><br />
+            <span class="white-text">RDBMS</span>
+          </div>
+          <div class="card-panel z-depth-0 transparent col l3 m3 s6 offset-s3">
+            <a href="#modal1" class="modal-trigger">
+              <img
+                src="./src/img/event-logo/web.png"
+                class="responsive-img event-logo"
+                alt=""
+                onclick="showEvent('webdev')"
+              />
+            </a>
+            <span class="heading yellow-text text-darken-3">Dark Web</span
+            ><br />
+            <span class="white-text">Web Development</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modal1" class="modal blue-grey darken-4 white-text">
+      <div class="container center-align transparent" id="evtInfo">
+        <div class="progress" id="progress">
+          <div class="indeterminate yellow darken-3"></div>
+        </div>
+        <h5 id="evt_name" class="heading"></h5>
+        <h6 id="evt_acname" class="white-text"></h6>
+        <h6
+          id="evt_desc"
+          class="fancy yellow-text text-darken-3 text-darken-2"
+        ></h6>
+        <div class="z-depth-0 left-align" id="rules"></div>
+        <div class="row">
+          <div
+            class="col l6 m6 s12 card-panel z-depth-0 grey darken-4 left-align"
+            id="h1"
+          ></div>
+          <div
+            class="col l6 m6 s12 card-panel z-depth-0 grey darken-4 left-align"
+            id="h2"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="cover-page center-align card-panel grey darken-4 scrollspy"
+      id="genrules"
+    >
+      <h4 class="heading white-text flow-text">General Rules</h4>
+      <span class="fancy white-text">The Twist in the Story.</span>
+      <div class="container white-text left-align">
+        <ul>
+          <li>1) Registration fee ₹1,000/- per team.</li>
+          <li>2) Maximum of 12 participants are allowed from each team.</li>
+          <li>
+            3) Participating teams must have to report at the reception desk by
+            9.00 am.
+          </li>
+          <li>
+            4) College ID and permission letter from college is mandatory.
+          </li>
+          <li>
+            5) Teams must participate in all the events in order to qualify for
+            the overall championship.
+          </li>
+          <li>
+            6) Rounds of all the events will be disclosed on the day of the
+            fest.
+          </li>
+          <li>
+            7) Replacement of any participant of a team is not allowed after the
+            registration.
+          </li>
+          <li>
+            8) Participation teams should not reveal their college identity
+            during the events.
+          </li>
+          <li>
+            9) Decisions of organisers/ panel of judges will be final in all the
+            events.
+          </li>
+          <li>
+            10) Accommodation facilities will be arranged only upon prior
+            notification.
+          </li>
+          <li>
+            11) Change in rules related to any event, if any, will be
+            highlighted on the official website and android app of SEMAPHORE
+            '19.
+          </li>
+          <li>
+            12) Formation of teams for some events must match the Schedule
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="cover-page center-align card-panel grey darken-4 scrollspy"
+      id="schedule"
+    >
+      <h4 class="heading white-text flow-text">Schedule</h4>
+      <p class="fancy white-text">( Tentative. Will be updated soon. . . )</p>
+      <div class="row">
+        <div class="col l6 m6 s12">
+          <a href="./src/img/sc1.jpg" target="_blank">
+            <img src="./src/img/sc1.jpg" alt="" class="responsive-img" />
+          </a>
+        </div>
+        <div class="col l6 m6 s12">
+          <a href="./src/img/sc2.jpg" target="_blank">
+            <img src="./src/img/sc2.jpg" alt="" class="responsive-img" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="cover-page center-align card-panel grey darken-4 scrollspy"
+      id="team"
+    >
+      <h4 class="heading white-text flow-text">Semaphore Team</h4>
+      <p class="fancy white-text">People who hold the Realm!</p>
+      <div class="row">
+        <div class="col l6 m12 s12">
+          <div class="card row transparent z-depth-0">
+            <div class="col l6 m6 s12">
+              <img src="./src/img/director.jpg" class="img-cropped" alt="" />
+            </div>
+            <div class="col l6 m6 s12">
+              <span class="flow-text white-text" style="font-weight:bold;"
+                >Dr. K.M.Hegde</span
+              ><br />
+              <span class="yellow-text">Director, MCA Department</span><br />
+              <a href="tel:9845563691" class="btn grey darken-3">
+                <i class="material-icons left">phone</i>
+                9845563691
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col l6 m12 s12">
+          <div class="card row transparent z-depth-0">
+            <div class="col l6 m6 s12">
+              <img src="./src/img/hod.png" class="img-cropped" alt="" />
+            </div>
+            <div class="col l6 m6 s12">
+              <span class="flow-text white-text" style="font-weight:bold;"
+                >Dr. Surendra Shetty</span
+              ><br />
+              <span class="yellow-text">Prof. and Head, MCA Department</span
+              ><br />
+              <a href="tel:9945547359" class="btn grey darken-3">
+                <i class="material-icons left">phone</i>
+                9945547359
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col l6 m12 s12">
+          <div class="card row transparent z-depth-0">
+            <div class="col l6 m6 s12">
+              <img src="./src/img/Mangala.png" class="img-cropped" alt="" />
+            </div>
+            <div class="col l6 m6 s12">
+              <span class="flow-text white-text" style="font-weight:bold;"
+                >Mrs. Mangala</span
+              ><br />
+              <span class="yellow-text">Staff Co-ordinator</span><br />
+              <a href="tel:9880891217" class="btn grey darken-3">
+                <i class="material-icons left">phone</i>
+                9880891217
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col l6 m12 s12">
+          <div class="card row transparent z-depth-0">
+            <div class="col l6 m6 s12">
+              <img src="./src/img/haro.jpeg" class="img-cropped" alt="" />
+            </div>
+            <div class="col l6 m6 s12">
+              <span class="flow-text white-text" style="font-weight:bold;"
+                >Harolin Vaz</span
+              ><br />
+              <span class="yellow-text">Student Co-ordinator</span><br />
+              <a href="tel:9901906078" class="btn grey darken-3">
+                <i class="material-icons left">phone</i>
+                9901906078
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col l6 m12 s12 push-l3">
+          <div class="card row transparent z-depth-0">
+            <div class="col l6 m6 s12">
+              <img src="./src/img/gutu.jpg" class="img-cropped" alt="" />
+            </div>
+            <div class="col l6 m6 s12">
+              <span class="flow-text white-text" style="font-weight:bold;"
+                >Guruprasad</span
+              ><br />
+              <span class="yellow-text">SAMCA President</span><br />
+              <a href="tel:9632812673" class="btn grey darken-3">
+                <i class="material-icons left">phone</i>
+                9632812673
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="cover-page center-align card-panel grey darken-4"
+      style="padding-left:0;padding-right:0;padding-bottom: 0;margin:0;"
+    >
+      <iframe
+        id="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.6722528685655!2d74.93179631442644!3d13.18305299071739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbb56415ad85e5b%3A0x10b77ac6f6afc7fa!2sN.M.A.M.+Institute+of+Technology!5e0!3m2!1sen!2sin!4v1551251965139"
+        frameborder="0"
+        style="border:0;width: 100%;"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <footer class="page-footer grey darken-4 scrollspy" id="download">
+      <div class="container">
+        <div class="row">
+          <div class="col l12 m12 s12 center-align">
+            <h5>Register for the fest</h5>
+            <div class="container">
+              Click the following link to download the official app for
+              Semaphore '19 and register for the fest.
+            </div>
+            <br />
+            <a href="./downloads/semaphore.apk" target="_blank">
+              <img
+                src="https://www.palottery.state.pa.us/PaLotteryWebSite/media/Page-Images/android-app-apk-page/Download-for-Android.png"
+                alt=""
+                style="margin:1em;width:150px;"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright grey darken-4 center-align">
+        <div class="container">
+          <p class="fancy">Get in touch with us</p>
+          <a href="" class="btn btn-floating black">
+            <i class="fab fa-facebook-f white-text fa-3x"></i>
+          </a>
+          <a
+            href="https://twitter.com/semaphore_2k19"
+            class="btn btn-floating black"
+          >
+            <i class="fab fa-twitter white-text fa-3x"></i>
+          </a>
+          <a
+            href="https://www.youtube.com/channel/UCLzUIe-nQu1jyOrRAr4bTNQ"
+            class="btn btn-floating black"
+          >
+            <i class="fab fa-youtube white-text fa-3x"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/semaphore2k19/"
+            class="btn btn-floating black"
+          >
+            <i class="fab fa-instagram white-text fa-3x"></i>
+          </a>
+          <p>
+            <a
+              target="_blank"
+              href="https://velansalis.github.io"
+              class="white-text fancy"
+              >Say Hi! to the Developer</a
+            >
+          </p>
+        </div>
+        <br />
+      </div>
+    </footer>
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large black">
+        <i class="large material-icons">menu</i>
+      </a>
+      <ul class="section">
+        <li>
+          <a class="btn-floating yellow darken-3" href="#about"
+            ><i class="material-icons black-text">assignment</i></a
+          >
+        </li>
+        <li>
+          <a class="btn-floating yellow darken-3" href="#challenge"
+            ><i class="material-icons black-text">directions_run</i></a
+          >
+        </li>
+        <li>
+          <a class="btn-floating yellow darken-3" href="#genrules"
+            ><i class="material-icons black-text">description</i></a
+          >
+        </li>
+        <li>
+          <a class="btn-floating yellow darken-3" href="#schedule"
+            ><i class="material-icons black-text">dashboard</i></a
+          >
+        </li>
+        <li>
+          <a class="btn-floating yellow darken-3" href="#team"
+            ><i class="material-icons black-text">supervisor_account </i></a
+          >
+        </li>
+      </ul>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./src/js/typed.js"></script>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
