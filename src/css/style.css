@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Architects+Daughter");
+@import url("https://fonts.googleapis.com/css?family=Jura");
+@import url("https://fonts.googleapis.com/css?family=Fredoka+One");
+
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/brands.css");
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/fontawesome.css");
+
+body,
+html {
+  font-family: "Jura", sans-serif;
+}
+#loader {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  transition: all 1s;
+}
+.disappear {
+  height: 0vh;
+  opacity: 0;
+}
+.card-panel {
+  margin: 0;
+}
+.parallax-container > .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.responsive-img {
+  max-height: 50%;
+}
+#mainlogo {
+  width: 20em;
+}
+#date {
+  font-size: 2.2em;
+  font-weight: bolder;
+}
+.btn {
+  margin: 0.3em;
+}
+.cover-image {
+  height: auto;
+}
+.heading {
+  font-family: "Fredoka One", cursive;
+}
+.fancy {
+  font-family: "Architects Daughter", cursive;
+}
+.time {
+  font-weight: bolder;
+  font-size: 2em;
+}
+.event-logo {
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  user-select: none;
+}
+.event-logo:hover {
+  animation: pulse 1.5s infinite;
+  -webkit-animation: pulse 1.5s infinite ease-out;
+}
+.modal {
+  padding: 0 0.5em 0 0.5em;
+}
+iframe {
+  margin-top: 2em;
+  height: 40vh;
+  width: auto;
+  min-width: 55%;
+}
+#map {
+  height: 60vh;
+  width: auto;
+}
+.card-image > img {
+  width: 10px;
+  height: 10px;
+}
+.img-cropped {
+  object-fit: fill;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(1);
+  }
+  70% {
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(0.8);
+    box-shadow: 0 0 0 4em rgba(2, 43, 179, 0);
+  }
+  100% {
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(27, 13, 221, 0);
+  }
+}
+.disappear {
+  display: none;
+}

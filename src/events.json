@@ -1,0 +1,231 @@
+{
+  "app": {
+    "name": "Trapp Door",
+    "acname": "App Development",
+    "description": "It’s not about IDEAS. It’s about making them happen.",
+    "rules": [
+      "Number of participants: 1",
+      "Participant should have the basic knowledge of Mobile App development, Server side web Technologies and Cryptography.",
+      "Participant must have a Laptop, Data cable and smartphone with an active Internet connection.",
+      "Participants cannot participate in any other event."
+    ],
+    "heads": [
+      {
+        "name": "Akshay Vaidya",
+        "contact": "9740769579"
+      },
+      {
+        "name": "Sushma Gabit",
+        "contact": "8762979602"
+      }
+    ]
+  },
+  "code": {
+    "name": "Bitmorphose",
+    "acname": "Coding",
+    "description": "Code doesn't solve problems. They execute solutions.",
+    "rules": [
+      "Number of participants: 1",
+      "Participants must be familiar with C, C++",
+      "Mobile phones aren’t allowed during the rounds.",
+      "Participants cannot participate in any other event."
+    ],
+    "heads": [
+      {
+        "name": "Savan Kumar",
+        "contact": "7019717602"
+      },
+      {
+        "name": "Soumya",
+        "contact": "8310927534"
+      }
+    ]
+  },
+  "digiarts": {
+    "name": "Bitsplash",
+    "acname": "Digital Arts",
+    "description": "Make it better than you found it.",
+    "rules": [
+      "Number of participants: 1",
+      "Participants should get their laptops, Digital camera and smart phones.",
+      "Laptop must be loaded with required softwares (Image and Video Editing).",
+      "To participate, each participant must create a travel vlog.",
+      "Participants cannot participate in any other event."
+    ],
+    "heads": [
+      {
+        "name": "Chandan Gudigar",
+        "contact": "9686146334"
+      },
+      {
+        "name": "Varunendra B",
+        "contact": "8150892426"
+      }
+    ]
+  },
+  "gaming": {
+    "name": "Aimbits",
+    "acname": "Gaming",
+    "description": "Play. Win. Conquer.",
+    "rules": [
+      "Number of participants: 1",
+      "Participant can bring their headphones and mouse for better experience."
+    ],
+    "heads": [
+      {
+        "name": "Sunil Sequeira",
+        "contact": "8197850876"
+      },
+      {
+        "name": "Shishir BK",
+        "contact": "9740035059"
+      }
+    ]
+  },
+  "thunt": {
+    "name": "Cipher Chase",
+    "acname": "Treasure Hunt",
+    "description": "The path you fear to travel, holds the treasure you seek.",
+    "rules": [
+      "Number of participants: 2",
+      "Participants cannot participate in any other event.",
+      "Participants must have a smart phone with an active internet connection."
+    ],
+    "heads": [
+      {
+        "name": "Madhu Kumar",
+        "contact": "9964107657"
+      },
+      {
+        "name": "Thrinath P",
+        "contact": "9663248526"
+      }
+    ]
+  },
+  "itman": {
+    "name": "Techarch",
+    "acname": "IT Manager",
+    "description": "If you can’t handle stress, then you won’t manage success.",
+    "rules": [
+      "Number of participants: 1.",
+      "Participant cannot participate in any other event.",
+      "Participant must have a laptop with internet connection and a pendrive.",
+      "Participant must come in a formal attire."
+    ],
+    "heads": [
+      {
+        "name": "Christina Jathanna",
+        "contact": "8197378403"
+      },
+      {
+        "name": "Zeeta Andrade",
+        "contact": "9902169277"
+      }
+    ]
+  },
+  "mevent": {
+    "name": "Alpha Duo",
+    "acname": "Mega Event",
+    "description": "If you fall behind, you end behind.",
+    "rules": [
+      "Number of participants: 2",
+      "Participant cannot participate in any other event.",
+      "Participants must possess Android phone with active internet connectivity.",
+      "At least one participant must have the laptop.",
+      "Participants must have basic technical knowledge."
+    ],
+    "heads": [
+      {
+        "name": "Abdul Siddik",
+        "contact": "8197494620"
+      },
+      {
+        "name": "Nisha Salian",
+        "contact": "9945777283"
+      }
+    ]
+  },
+  "variety": {
+    "name": "X Factor",
+    "acname": "Variety Show",
+    "description": "A really great talent finds it's happiness in execution.",
+    "rules": [
+      "Teams can perform any form of art (skit, singing, dance, Stand-Up comedy, etc.)",
+      "The theme will be given 5 days prior",
+      "The group must consist of at least 4 students on the stage, Maximum of 8+4 minutes will be allotted to each team.",
+      "Costumes and Quality of the performance will be considered for the judgement.",
+      "Vulgarity in performance will not be entertained.",
+      "No solo performances are allowed."
+    ],
+    "heads": [
+      {
+        "name": "Nanditha S Rao",
+        "contact": "89713331809"
+      },
+      {
+        "name": "Chandni Kotian",
+        "contact": "9148964885"
+      }
+    ]
+  },
+  "itquiz": {
+    "name": "Enigma",
+    "acname": "IT Quiz",
+    "description": "It’s all about your Gray Matter!!!",
+    "rules": [
+      "Number of participants: 2",
+      "Decision of Quiz Master will be final.",
+      "Usage of electronic gadgets during the rounds is strictly prohibited."
+    ],
+    "heads": [
+      {
+        "name": "Praveen Kumar",
+        "contact": "7558087138"
+      },
+      {
+        "name": "Prakash Mayya",
+        "contact": "9663478781"
+      }
+    ]
+  },
+  "rdbms": {
+    "name": "CryptoJack",
+    "acname": "RDBMS",
+    "description": "Don’t quit. Just commit.",
+    "rules": [
+      "Number of participants: 1",
+      "Participant must have the knowledge of PL/SQL and SQL.",
+      "Participant must know to work with Oracle."
+    ],
+    "heads": [
+      {
+        "name": "Rohan Dsouza",
+        "contact": "8722264662"
+      },
+      {
+        "name": "Kishore KP",
+        "contact": "8277653857"
+      }
+    ]
+  },
+  "webdev": {
+    "name": "Dark Web",
+    "acname": "Web Development",
+    "description": "Where technology meets creativity.",
+    "rules": [
+      "Number of participants: 1",
+      "Participant must be familiar with HTML/HTML5, CSS, CSS3, JavaScript and jQuery.",
+      "Theme will be announced on spot."
+    ],
+    "heads": [
+      {
+        "name": "Samanth Kumar",
+        "contact": "8197420742"
+      },
+      {
+        "name": "Ashwath Prabhu",
+        "contact": "8746993924"
+      }
+    ]
+  }
+}
